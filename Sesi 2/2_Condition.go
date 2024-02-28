@@ -81,9 +81,9 @@ func Nested() {
 }
 
 func main() {
-	IfElse()
-	Switch()
-	SwitchWithRelational()
-	SwitchWithFallthrough()
-	Nested()
+	// IfElse()
+	// Switch()
+	// SwitchWithRelational()
+	// SwitchWithFallthrough()
+	// Nested()
 }

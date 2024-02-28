@@ -41,8 +41,8 @@ func LogicalOperators() {
 }
 
 func main() {
-	Constant()
-	ArithmeticOperators()
-	RelationalOperators()
-	LogicalOperators()
+	// Constant()
+	// ArithmeticOperators()
+	// RelationalOperators()
+	// LogicalOperators()
 }

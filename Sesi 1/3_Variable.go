@@ -63,11 +63,11 @@ func UsingPrintf() {
 }
 
 func main() {
-	WithDataType()
-	WithoutDataType()
-	WithoutDataTypeShort()
-	MultiVariableSamedata()
-	MultiVariableDifferentdata()
-	UnderscoreVariable()
-	UsingPrintf()
+	// WithDataType()
+	// WithoutDataType()
+	// WithoutDataTypeShort()
+	// MultiVariableSamedata()
+	// MultiVariableDifferentdata()
+	// UnderscoreVariable()
+	// UsingPrintf()
 }

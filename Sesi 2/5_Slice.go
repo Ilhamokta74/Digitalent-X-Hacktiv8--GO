@@ -128,15 +128,15 @@ func SliceNewBacking() {
 }
 
 func main() {
-	Slice()
-	SliceMake()
-	SliceAppend1()
-	SliceAppend2()
-	SliceAppend3()
-	SliceCopy()
-	SliceWithIndex()
-	SliceCombineAndAppend()
-	SliceBacking()
-	SliceCap()
-	SliceNewBacking()
+	// Slice()
+	// SliceMake()
+	// SliceAppend1()
+	// SliceAppend2()
+	// SliceAppend3()
+	// SliceCopy()
+	// SliceWithIndex()
+	// SliceCombineAndAppend()
+	// SliceBacking()
+	// SliceCap()
+	// SliceNewBacking()
 }

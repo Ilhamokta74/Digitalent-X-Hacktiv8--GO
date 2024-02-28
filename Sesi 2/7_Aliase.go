@@ -21,6 +21,6 @@ func Aliase2() {
 }
 
 func main() {
-	Aliase1()
-	Aliase2()
+	// Aliase1()
+	// Aliase2()
 }

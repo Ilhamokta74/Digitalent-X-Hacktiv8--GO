@@ -45,8 +45,8 @@ func LoopingLabel() {
 }
 
 func main() {
-	For()
-	ForContinueAndBreak()
-	NestedLoop()
-	LoopingLabel()
+	// For()
+	// ForContinueAndBreak()
+	// NestedLoop()
+	// LoopingLabel()
 }

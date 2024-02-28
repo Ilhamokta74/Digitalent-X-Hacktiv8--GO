@@ -97,10 +97,10 @@ func MapCombining() {
 }
 
 func main() {
-	Map()
-	Map2()
-	MapLoop()
-	MapDelete()
-	MapDetecting()
-	MapCombining()
+	// Map()
+	// Map2()
+	// MapLoop()
+	// MapDelete()
+	// MapDetecting()
+	// MapCombining()
 }

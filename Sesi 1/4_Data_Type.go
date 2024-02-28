@@ -40,9 +40,9 @@ func String() {
 }
 
 func main() {
-	IntegerNormal()
-	IntegerNextLevel()
-	Float()
-	Boolean()
-	String()
+	// IntegerNormal()
+	// IntegerNextLevel()
+	// Float()
+	// Boolean()
+	// String()
 }

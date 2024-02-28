@@ -52,8 +52,8 @@ func ArrayMultidimensional() {
 }
 
 func main() {
-	Array()
-	ArrayModify()
-	ArrayLoop()
-	ArrayMultidimensional()
+	// Array()
+	// ArrayModify()
+	// ArrayLoop()
+	// ArrayMultidimensional()
 }

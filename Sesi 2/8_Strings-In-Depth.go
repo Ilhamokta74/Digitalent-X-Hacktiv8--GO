@@ -46,9 +46,9 @@ func Looping5() {
 }
 
 func main() {
-	Looping1()
-	Looping2()
-	Looping3()
-	Looping4()
-	Looping5()
+	// Looping1()
+	// Looping2()
+	// Looping3()
+	// Looping4()
+	// Looping5()
 }
