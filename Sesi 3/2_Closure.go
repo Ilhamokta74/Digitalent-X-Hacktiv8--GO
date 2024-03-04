@@ -70,16 +70,16 @@ func ClosureGanjil(numbers []int, callback isOddNum) int {
 }
 
 func main() {
-	ClosureGenap()
-	ClosureIfElse()
+	// ClosureGenap()
+	// ClosureIfElse()
 
-	var studentLists = []string{"Aralie", "Nanda", "Mailo", "Shannel", "Marco"}
-	var find = ClosureReturnValue(studentLists)
-	fmt.Println(find("Aralie"))
+	// var studentLists = []string{"Aralie", "Nanda", "Mailo", "Shannel", "Marco"}
+	// var find = ClosureReturnValue(studentLists)
+	// fmt.Println(find("Aralie"))
 
-	var numbers = []int{2, 5, 8, 10, 3, 99, 23}
-	var find = ClosureGanjil(numbers, func(number int) bool {
-		return number%2 != 0
-	})
-	fmt.Println("Total odd numbers : ", find)
+	// var numbers = []int{2, 5, 8, 10, 3, 99, 23}
+	// var find = ClosureGanjil(numbers, func(number int) bool {
+	// 	return number%2 != 0
+	// })
+	// fmt.Println("Total odd numbers : ", find)
 }

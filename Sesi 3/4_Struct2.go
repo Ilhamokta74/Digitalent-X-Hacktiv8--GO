@@ -75,5 +75,5 @@ func main() {
 	// StructEmbedded()
 	// StructAnonymous()
 	// StructSlice()
-	StructSliceAnonymous()
+	// StructSliceAnonymous()
 }

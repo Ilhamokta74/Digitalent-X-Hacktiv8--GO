@@ -40,11 +40,11 @@ func Pointer3(number *int) {
 }
 
 func main() {
-	Pointer1()
-	Pointer2()
+	// Pointer1()
+	// Pointer2()
 
-	var a int = 10
-	fmt.Println("Before : ", a)
-	Pointer3(&a)
-	fmt.Println("After : ", a)
+	// var a int = 10
+	// fmt.Println("Before : ", a)
+	// Pointer3(&a)
+	// fmt.Println("After : ", a)
 }

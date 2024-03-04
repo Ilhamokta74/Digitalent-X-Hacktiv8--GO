@@ -53,7 +53,7 @@ func StructPointer() {
 }
 
 func main() {
-	StructGivingValue()
-	StructInitializing()
-	StructPointer()
+	// StructGivingValue()
+	// StructInitializing()
+	// StructPointer()
 }
