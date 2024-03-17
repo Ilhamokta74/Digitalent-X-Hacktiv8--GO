@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "9c86945f-99fb-4d54-9c28-72c83b76f75c",
+		"name": "Assignment-2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20017195"
+	},
+	"item": [
+		{
+			"name": "Add Data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"orderedAt\": \"2019-11-09T21:21:46+00:00\",\r\n  \"CustomerName\": \"Tom Jerry\",\r\n  \"items\": [\r\n    {\r\n      \"ItemCode\": \"123\",\r\n      \"Description\": \"IPhone 10X\",\r\n      \"Quantity\": 1\r\n    }\r\n  ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Data",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"customerName\": \"Spike Tyke\",\r\n  \"orderedAt\": \"2019-11-09T21:21:46Z\",\r\n  \"items\": [\r\n    {\r\n      \"lineItemId\": 1,\r\n      \"itemCode\": \"123\",\r\n      \"description\": \"IPhone 10X\",\r\n      \"quantity\": 10\r\n    }\r\n  ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/orders/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"orders",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Data",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/orders/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"orders",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
